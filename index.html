@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Pizza App</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="description">
+            <h1>Złóż zamówienie</h1>
+        </div>
+        <div class="size">
+            <h2>Wielkość</h2>
+            <p>Krok 1</p>
+            <img src="img/food.png"></br>
+            <p>Wybierz rozmiar swojej pizzy w cm</p>
+            <select id="yourSize">
+               <option value="10">10 cm</option>
+               <option value="20">20 cm</option>
+               <option value="30">30 cm</option>
+            </select>
+        </div>
+        <div class="extras">
+            <h2>Dodatki</h2>
+            <p>Krok 2</p>
+            <img src="img/salami.png">
+            <p>Wybierz dodatki które chcesz dodać do pizzy:</br> każdy dodatek + 2zł</p>
+            <div class="add">
+                <img class="extra" src="img/p1.png">
+                <img class="extra" src="img/p2.png">
+                <img class="extra" src="img/p3.png">
+                <img class="extra" src="img/p4.png">
+            </div>
+        </div>
+        <div class="delivery">
+            <h2>Wybierz sposób odbioru pizzy</h2>
+            <p>Krok 3</p>
+            <img src="img/pizza-truck.png">
+            </br>
+            </br>
+            </br>
+            <select id="yourDelivery">
+                <option value="restaurant">Odbiór w restauracji</option>
+                <option value="home">Dowóz do domu + 5 zł</option>
+            </select>
+        </div>
+        <button class="reserve">Zamawiam pizze</button>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
